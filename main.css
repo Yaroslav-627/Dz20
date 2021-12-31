@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap');
+p{
+    margin: 0;
+    padding: 0;
+}
+.popup{
+    z-index: 10;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.699);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.popup-x{
+    border-radius: 15px;
+    border: 0;
+    position: absolute;
+    top: 8px;
+    right: 8px;
+}
+.popup__x-img{
+    padding: 6px 4.3px;
+}
+.popup__content{
+    width: 528px;
+    height: 581px;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+    position: relative;
+}
+.popup__form{
+    padding-left: 41px;
+    padding-right: 39px;
+}
+.popup__title{
+    font-family: Roboto;
+    font-weight: 700;
+    text-align: center;
+    font-size: 20px;
+    padding-top: 40px;
+}
+.popup__input{
+    display: block;
+}
+.input:focus{
+    border: 1px solid #2196F3;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+.input{
+    width: 448px;
+    height: 40px;
+    border: 1px solid rgba(33, 33, 33, 0.2);
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+.input__text{
+    padding-top: 10px;
+    padding-bottom: 4px;
+    letter-spacing: 0.01em;
+    color: #757575;
+    font-family: Roboto;
+    font-weight: 300;
+    font-size: 12px;
+}
+.input__text:first-child{
+    padding-top: 12px;
+}
+.input__name{
+    background: url(name.png) no-repeat scroll 12px 12px;
+    padding-left: 15px;
+}
+.input__tel{
+    background: url(phone.png) no-repeat scroll 12px 12px;
+    padding-left: 15px;
+}
+.input__email{
+    background: url(email.png) no-repeat scroll 12px 12px;
+    padding-left: 15px;
+}
+.input__comment{
+    width: 448px;
+    height: 120px;
+    resize: none;
+}
+.popup__checkbox{
+    display: flex;
+    padding-top: 20px;
+}
+.text__conditions{
+    color: #2196F3;
+    text-decoration-line: underline;
+    font-family: Roboto;
+    font-weight: 300;
+    font-size: 14px;
+}
+.checkbox__text{
+    padding-left: 8px;
+    letter-spacing: 0.03em;
+}
+.popup__button{
+    background: #2196F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    border: 0;
+    padding: 17px 68px;
+    cursor: pointer;
+}
+.popup__submit{
+    text-align: center;
+    padding-top: 30px;
+}

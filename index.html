@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="popup">
+        <div class="popup__content">
+            <form class="popup__form">
+            <p class="popup__title">Оставьте свои данные, мы вам перезвоним</p>
+            <button class="popup-x"><img src="x.png" class="popup__x-img"></button>
+            <label for="text" class="popup__input">
+                <p class="input__text">Имя</p>
+                <input type="text" class="input input__name">
+            </label>
+            <label for="tel" class="popup__input">
+                <p class="input__text">Телефон</p>
+                <input type="tel" class="input input__tel">
+            </label>
+            <label for="email" class="popup__input">
+                <p class="input__text">Почта</p>
+                <input type="email" class="input input__email">
+            </label>
+            <label for="textarea" class="popup__input">
+                <p class="input__text">Комментарий</p>
+                <textarea class="input input__comment"></textarea>
+            </label>
+            <label for="textarea" class="popup__checkbox popup__input">
+                <input type="checkbox" name="checkbox">
+                <p class="checkbox__text">Соглашаюсь с рассылкой и принимаю <a class="text__conditions">Условия договора</a></p>
+            </label>
+            <div class="popup__submit">
+                <button class="popup__button">Отправить</button>
+            </div>
+        </form>
+        </div>
+    </div>
+</body>
+</html>
